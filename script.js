@@ -115,7 +115,7 @@ function handleCellClick(clickedCellEvent) {
     If everything if in order we will proceed with the game flow
     */    
         handleCellPlayed(clickedCell, clickedCellIndex);
-        if ( currentPlayer == "X" ) { 
+        if ( currentPlayer === "X" ) { 
             document.querySelectorAll('.cell')[clickedCellIndex].style.color = "blue";
         }else{
             document.querySelectorAll('.cell')[clickedCellIndex].style.color = "red";
